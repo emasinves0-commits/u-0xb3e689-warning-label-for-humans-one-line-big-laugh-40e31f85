@@ -1,17 +1,18 @@
 # Warning Label for Humans: One Line, Big Laugh
 
-A warning label for humans, in the style of the safety stickers on heavy
-machinery — except the hazard here is a person after 2 a.m., when impulse
-control is at its worst and one bad decision snowballs into three.
+A safety warning label for every human being, written in the voice of a
+spec sheet for a piece of machinery: every unit needs 8 hours of sleep
+per 24 hours, and the failure mode is the one everyone recognises — a
+sleep-deprived person yelling at a printer.
 
 ## Entry
 
-> WARNING: After 2 a.m., this human will text an ex, buy a kayak, and start a business. Do not operate unsupervised.
+> CAUTION: Every unit requires 8 h of sleep per 24 h; operating below this may result in yelling at inanimate objects.
 
 ## Run
 
 ```sh
-MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 This writes the entry text — exactly one line, no trailing newline — to
